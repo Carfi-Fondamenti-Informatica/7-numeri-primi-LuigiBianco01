@@ -1,6 +1,6 @@
-#ifndef MAIN_CPP_LIB_H
-#define MAIN_CPP_LIB_H
+#ifndef ESERCITAZIONE7_5_LIB_H
+#define ESERCITAZIONE7_5_LIB_H
 
-#endif //MAIN_CPP_LIB_H
+#endif //ESERCITAZIONE7_5_LIB_H
 
-bool funzione(char carattereinserito);
+bool funzione (int, int );
