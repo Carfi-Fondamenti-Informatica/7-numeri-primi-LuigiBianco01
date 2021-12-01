@@ -1,23 +1,15 @@
 #include <iostream>
 using namespace std;
-#include <lib.h>
+#include "lib.h"
 
 int main() {
-    char carattereinserito;
-    char caratterestampa;
-
-    cin >> carattereinserito;
-
-    if (funzione(carattereinserito)==true){
-        if (carattereinserito>=65&&carattereinserito<=90) {
-            caratterestampa = carattereinserito + 32;
-        } else {
-            caratterestampa = carattereinserito - 32;
-        }
-        cout << caratterestampa;
-    } else {
-        cout << "errore";
+    int b=0;
+    cin >> b;
+    int a=2;
+    if (funzione (a, b ) == true){
+        cout << "numero primo";
+    } else if (funzione (a, b)== false){
+        cout << "numero non primo";
     }
     return 0;
-
 }
