@@ -1,12 +1,12 @@
 #include "lib.h"
 
-bool funzione(char carattereinserito){
-    char caratterestampa;
-    bool risultato;
-    if (carattereinserito>=65&&carattereinserito<=90 or carattereinserito>=97&&carattereinserito<=122){
-        risultato=true;
+bool funzione (int a, int b){
+    bool esito;
+    if(b % a != 0 && b>a) {
+        funzione(a + 1, b);
+    } else if (b % a == 0 && b > a ){
+        return esito =  false ;
     } else {
-        risultato=false;
+        return esito = true ;
     }
-    return risultato;
 }
